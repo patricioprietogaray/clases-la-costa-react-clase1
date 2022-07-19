@@ -9,10 +9,19 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 
 
+// apunta a public/index.html -> apunta al div con id="root"
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+root.render( //crear el root y renderizarlo
+  // los componentes se identifican como si 
+  // fueran tags (etiquetas de html)
   <React.StrictMode>
+    {/* <App></App> o <App />  */}
+    {/* es lo mismo */}
     <App />
   </React.StrictMode>
+  // <React.StrictMode>
+  //   {/* renderiza App.js, (los comentarios son distintos!) */}
+  //   <App />
+  // </React.StrictMode>
 );
 
