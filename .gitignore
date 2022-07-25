@@ -1,5 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# a continuacion es todo lo que ignora cuando se sube a github
+
+
 # dependencies
 /node_modules
 /.pnp
